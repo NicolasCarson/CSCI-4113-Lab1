@@ -5,7 +5,7 @@ export TERM=${TERM:-dumb}
 clear
 
 space=$(df / | grep -oP '\d+(?=%)')
-memlimit=10
+memlimit=80
 
 echo "Current Memory used is: $space"
 
